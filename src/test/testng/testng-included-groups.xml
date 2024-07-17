@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="IncludedGroups">
+    <test name="IncludedGroups">
+        <groups>
+            <run>
+                <include name="fast"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.coherentsolutions.java.webauto.parser.JsonParserTest"/>
+            <class name="com.coherentsolutions.java.webauto.shop.RealItemTest"/>
+            <class name="com.coherentsolutions.java.webauto.shop.VirtualItemTest"/>
+            <class name="com.coherentsolutions.java.webauto.shop.CartTest"/>
+        </classes>
+    </test>
+</suite>

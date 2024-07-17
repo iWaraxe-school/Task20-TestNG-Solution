@@ -1,0 +1,9 @@
+{
+  "cartName": "invalid-cart",
+  "realItems": [
+    { "weight": 1500 "name": "InvalidItem", "price": 30000 }
+  ],
+  "virtualItems": [
+    { "sizeOnDisk": 20000, "name": "InvalidVirtualItem", "price": 20.0 }
+  ],
+  "total": 36000.0,

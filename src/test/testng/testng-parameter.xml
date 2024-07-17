@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParameterSuite">
+    <test name="ParameterTest">
+        <parameter name="cartName" value="parameter-cart"/>
+        <parameter name="itemName" value="TestItem"/>
+        <parameter name="itemPrice" value="100.0"/>
+        <parameter name="itemWeight" value="10.0"/>
+        <classes>
+            <class name="com.coherentsolutions.java.webauto.shop.CartTest"/>
+        </classes>
+    </test>
+</suite>
